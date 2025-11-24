@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Storia rossoblù</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- INTRO: Clouds + Titel -->
+  <section class="intro">
+    <div class="intro-stage">
+      <!-- Clouds (liegen übereinander) -->
+      <img src="img/Cloud1.png" class="layer cloud" alt="">
+      <img src="img/Cloud2.png" class="layer cloud" alt="">
+      <img src="img/Cloud3.png" class="layer cloud" alt="">
+      <img src="img/Cloud4.png" class="layer cloud" alt="">
+      <img src="img/Cloud5.png" class="layer cloud" alt="">
+      <img src="img/Cloud6.png" class="layer cloud" alt="">
+      <img src="img/Cloud7.png" class="layer cloud" alt="">
+
+      <!-- Hintergrund 2 (blendet ein, wenn Wolken weg sind) -->
+      <img src="img/hintergrund2.png" class="layer bg2" alt="">
+      <img src="img/spieler1.png" class="layer player" alt="Spieler 1">
+      <img src="img/spieler2.png" class="layer player player2" alt="Spieler 2">
+
+      <!-- Titel -->
+      <img src="img/Titel.png" class="title-img" alt="La Storia Rossoblù">
+      <!-- Ball im Titel (fällt nach unten, bleibt sichtbar) -->
+      <img src="img/Ball_Titel.png" class="title-ball" alt="Ball">
+    </div>
+  </section>
+
+  <!-- GSAP -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

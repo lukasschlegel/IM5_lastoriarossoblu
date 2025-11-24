@@ -1,0 +1,86 @@
+/* Basics */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; overflow-x: hidden; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #000; }
+
+/* Scrollstrecke für Intro */
+.intro { height: 200vh; }
+
+/* Fullscreen, sticky Bühne */
+.intro-stage{
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+  margin: 0 auto;
+}
+
+/* Layer */
+.layer{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* Clouds */
+.cloud{ z-index: 1; }
+
+/* Hintergrund2 (Intro) */
+.bg2 {
+  z-index: 0;
+  opacity: 0; /* Start: unsichtbar, wird per JS eingeblendet */
+}
+
+/* Titel mittig */
+.title-img{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: min(80vw, 1100px);
+  width: auto; height: auto;
+  z-index: 3;
+  opacity: 0; /* erscheint per Animation */
+  pointer-events: none;
+}
+
+/* Intro-Ball (bleibt sichtbar, fällt nach unten) */
+.title-ball {
+  position: absolute;
+  left: 50.3%;
+  top: calc(40% + 10vh);
+  transform: translate(-50%, -50%) scale(0.56); /* Grösse hier justieren */
+  opacity: 0; /* erscheint mit dem Titel */
+  z-index: 4;
+  pointer-events: none;
+}
+
+.player {
+  position: absolute;
+  z-index: 2;               /* über bg2, unter Titel/Ball */
+  pointer-events: none;
+
+  /* Exakte Originalgrösse */
+  width: 1920px;
+  height: 1080px;
+
+  /* zentriert im Viewport */
+  left: 34%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  scale: 0.85;
+
+  opacity: 0; /* Start: unsichtbar (kommt via JS rein) */
+}
+
+/* Responsive Feintuning */
+@media (max-width: 768px){
+  .title-img  { max-width: 92vw; }
+  .title-ball { transform: translate(-50%, -50%) scale(0.5); }
+}
