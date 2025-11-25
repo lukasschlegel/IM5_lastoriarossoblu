@@ -41,3 +41,5 @@ Die Seite dient als Auftakt für ein längeres Scrollytelling über die Vereinsg
 - MDN Web Docs für CSS/JS Grundlagen
 - Browser DevTools für Debugging und Performance-Analyse
 - Visual Studio Code
+
+STAND: 25. November 2025
