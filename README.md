@@ -20,13 +20,14 @@ Der Fokus liegt auf:
 Zu Beginn habe ich mich darauf konzentriert, einen klaren Plan für das Projekt zu erstellen und festzulegen, welche Fotografien ich dafür in Chiasso aufnehmen musste. Nach einem ersten Shooting in Chiasso begann ich auf dem iPad in der App Procreate damit, einen Stil für meine gezeichneten Figuren zu entwickeln. Ich entschied mich dafür, die Figuren mit einem B6-Bleistift zu zeichnen und sie anschliessend mit Wasserfarben auszumalen (siehe Abb. 1).
 
 ![Animationsausschnitt](media/Zeichnung.gif)
-
-![Alternativtext](img/Klimamonitor_Screenflow.png)
-*Prozess der Gestaltung der gezeichneten Figuren in Pro Create*
+*Abb.1: Prozess der Gestaltung der gezeichneten Figuren in Pro Create*
 
 Danach integrierte ich das Hintergrundbild sowie die gezeichneten Figuren direkt in meine Webseite und versuchte, einen gezeichneten Ball so zu animieren, dass er mithilfe von GSAP ScrollTrigger und Positionsdaten direkt im Browser bewegt wurde. Dieser Ansatz stellte sich jedoch als äusserst aufwendig und letztlich zu ungenau heraus. Es war sehr schwierig, die exakte Position des Balls sowie dessen Flugbahn präzise zu programmieren. Zusätzlich erwies sich die Umsetzung als problematisch in Bezug auf Responsiveness, da sich die Animation auf unterschiedlichen Bildschirmgrössen nur schwer kontrollieren liess.
 
 An einem weiteren Tag ging ich erneut in Chiasso fotografieren und hatte unter anderem die Möglichkeit, im Grotto Carlino Bilder aufzunehmen, dem ursprünglichen Grotto, in dem der FC Chiasso gegründet wurde (siehe Abb. 2). Bis auf zwei Fotografien (Historisches Bild des Campo del Gas, da der Platz nicht mehr existiert und das Foto des Fussballplatzes in Sementina, auf dem das Aufstiegsspiel in die zweite Liga stattfand), konnte ich alle Bilder selbst mit meiner Kamera aufnehmen.
+
+![Alternativtext](img/GrottoCarlino.jpg)
+*Abb.2: Grotto Carlino mit der Geburtsurkundentafel des FC Chiasso*
 
 Nachdem ich alle Fotografien gesammelt hatte, bearbeitete ich diese einzeln in Photoshop, um sie stilistisch an die jeweilige Epoche anzupassen. Anschliessend entschied ich mich, die Bilder und Zeichnungen in After Effects zusammenzuführen und als PNG-Sequenz zu exportieren. Dieser Schritt brachte den grossen Vorteil mit sich, dass ich die Bewegung des Balls mithilfe von Keyframes in After Effects deutlich präziser animieren konnte (siehe Abb. 3).
 
