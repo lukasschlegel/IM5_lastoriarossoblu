@@ -66,6 +66,13 @@ Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutze
 - GSAP: https://greensock.com/gsap/
 - ScrollTrigger: https://greensock.com/scrolltrigger/
 - MDN Web Docs für CSS/JS Grundlagen
+- W3-Schools für CSS/JS
+- ChatGPT als Unterstützung beim Programmieren
+- After Effects als Quelle für die PNG-Sequenz
+- XnConvert für die Umwandlung von PNG zu WEBP
+- Adobe Audition für das Sounddesign
+- Photoshop zur Bearbeitung der Fotos
+- Sony A7IV Kamera
 - Browser DevTools für Debugging und Performance-Analyse
 - Visual Studio Code
 
