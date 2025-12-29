@@ -1,6 +1,6 @@
 # La storia Rossoblù – Scrollytelling
 
-Scrollytelling-Webprojekt mit Bildsequenz, Scrollsteuerung und Sounddesign.
+**Scrollytelling-Webprojekt mit Bildsequenz, Scrollsteuerung und Sounddesign.**
 
 ## Projektbeschreibung
 
