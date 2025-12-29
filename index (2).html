@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>La storia Rossoblù – Scrollytelling</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="loader-overlay">
+        <div class="loader-box">
+            <p class="loader-text" role="status" aria-live="polite">Caricamento del sito…</p>
+            <div class="loader-bar">
+                <div class="loader-bar-clip">
+                    <div class="loader-bar-fill"></div>
+                </div>
+                <img src="img/ball.webp" class="loader-ball" alt="" aria-hidden="true">
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="intro">
+            <div class="intro-frame">
+                <div class="intro-stage">
+                    <img src="sequence/lastoriarossoblu_00001.webp" class="sequence-frame"
+                        alt="Animazione la storia Rossoblù">
+                    <img src="img/rahmen.webp" class="frame-overlay" alt="">
+                    <button class="info-btn-wrapper" type="button" aria-label="Info">
+                        <img src="img/info_button.webp" class="info-btn" alt="">
+                    </button>
+                    <div class="info-overlay">
+                        <img src="img/info_textblock.webp" class="info-box" alt="Info Testo">
+                        <button class="info-close" type="button" aria-label="Chiudi informazioni">
+                            <img src="img/kreuz.webp" alt="" aria-hidden="true">
+                        </button>
+                        <div class="info-text">
+                            <h2>INFO</h2>
+                            <p>
+                                Questa pagina racconta la storia straordinaria del FC Chiasso attraverso un elemento
+                                simbolico: un pallone, che accompagna le diverse fasi e trasformazioni del club nel
+                                tempo.
+                                Il racconto prende forma attraverso una sequenza visiva animata, arricchita da diverse
+                                atmosfere sonore.
+                            </p>
+                            <p>
+                                Per seguire la storia è necessario scorrere la pagina.
+                                Per ascoltare i suoni e le ambientazioni, è possibile attivare l’audio tramite l’icona
+                                dell’altoparlante in basso a destra.
+                            </p>
+                            <p>
+                                Tutte le fotografie presenti sono state realizzate da me, ad eccezione delle immagini
+                                del Campo del Gas e del campo della partita playoff per la promozione in seconda lega.
+                                Le figure sono state disegnate a mano e non rappresentano necessariamente persone reali.
+                            </p>
+                            <p>
+                                Questo racconto non pretende di essere completo né rigorosamente storico: si tratta di
+                                una libera e personale interpretazione di alcuni momenti significativi della storia del
+                                club.
+                            </p>
+                            <p>
+                                Sempre Forza Chiasso! &#x1F534;&#x1F535;
+                            </p>
+                        </div>
+                    </div>
+                    <button class="sound-btn-wrapper" type="button" aria-label="Audio attiva/disattiva">
+                        <img src="img/ton_aus.webp" class="sound-btn" alt="">
+                    </button>
+                    <div class="scroll-hint">
+                        <span>Scorri per iniziare</span>
+                        <img src="img/pfeil.webp" class="scroll-arrow" alt="Freccia" aria-hidden="true">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="orientation-warning" aria-live="assertive">
+        <div class="orientation-box">
+            <p>Ruota il dispositivo in orizzontale per vedere l'animazione a schermo intero.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
