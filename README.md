@@ -51,16 +51,26 @@ Um das Erlebnis immersiver zu gestalten, erstellte ich zusätzlich Soundkulissen
 Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutzer:innen dazu auffordert, zu scrollen, um die Animation zu starten. Zusätzlich besteht die Möglichkeit, die Geräusche über ein Lautsprecher-Symbol ein- oder auszuschalten. Beim Öffnen der Seite wird ausserdem ein Ladescreen mit Ladebalken angezeigt, der visuell vermittelt, wie lange der Ladevorgang der Bildsequenz dauert. Wird die Seite auf einem mobilen Gerät im Hochformat geöffnet, erscheint eine Meldung, die darauf hinweist, dass das Gerät gedreht werden muss, damit die Animation korrekt dargestellt werden kann.
 
 
-## Learnings
-
-- 
-
 ## Schwierigkeiten
 
 - Die vielleicht grösste Herausforderung war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz, die ich aus After Effects exportiert hatte, war viel zu gross (ca. 3 GB). Deshalb habe ich alle PNGs in WEBP-Dateien umgewandelt und konnte so über 90 % der ursprünglichen Dateigrösse einsparen. Schlussendlich habe ich mich für einen Ladebildschirm entschieden, der alle WEBPs vollständig lädt, bevor die Seite angezeigt wird. Dadurch kann man danach ohne Lags durch die gesamte Animation scrollen.
 - Eine weitere Herausforderung war es, die Geschichte so zu erzählen, dass ich möglichst auf Text verzichten konnte, die Geschichte des FC Chiasso aber dennoch durch das visuelle und audiovisuelle Erlebnis verständlich wird. Hier muss ich sagen, dass es natürlich von Vorteil ist, wenn man den Club bereits kennt.
 - Beim Animieren des Balls direkt auf der Webseite mit JavaScript habe ich mir regelrecht die Zähne ausgebissen. Ich habe viele Stunden daran gearbeitet, musste aber schlussendlich einsehen, dass es mit meinem aktuellen Kenntnisstand sinnvoller ist, den Umweg über After Effects zu gehen und die Animation dort zu erstellen.
 - Auch die Seite responsive zu gestalten erwies sich als schwierig. Die Lösung, einen fixen Container mit einem festen Seitenverhältnis zu verwenden, der beim Skalieren das 16:9-Format beibehält, hat dabei deutlich geholfen.
+
+
+## Learnings
+- Performance ist entscheidend für das Nutzungserlebnis
+Besonders bei bildintensiven, scrollbasierten Animationen ist eine gute Performance zentral. Die Umwandlung der PNG-Sequenz in WEBP-Dateien und der Einsatz eines Ladebildschirms waren notwendig, um ein flüssiges Scroll-Erlebnis ohne Ruckler zu ermöglichen.
+- Komplexe Animationen lassen sich nicht immer sinnvoll direkt im Browser umsetzen
+Der Versuch, den Ball direkt mit JavaScript und GSAP zu animieren, erwies sich als zu aufwendig und ungenau. Die Entscheidung, die Animation in After Effects zu erstellen und als Bildsequenz zu exportieren, führte zu einem deutlich präziseren und zuverlässigeren Ergebnis.
+- Responsives Design bei Animationen erfordert klare Einschränkungen
+Um die Animation über verschiedene Bildschirmgrössen hinweg stabil darzustellen, war es notwendig, mit einem fixen Container im Seitenverhältnis 16:9 zu arbeiten. Dies vereinfachte die Umsetzung und verhinderte Darstellungsprobleme.
+- Audio im Web bringt technische Einschränkungen mit sich
+Die Umsetzung von Soundkulissen zeigte, dass moderne Browser – insbesondere auf Mobile-Geräten – klare Regeln für Audio-Wiedergabe haben. Eine bewusste Benutzerinteraktion zur Aktivierung des Tons war zwingend notwendig.
+- Weniger Text erfordert stärkeres visuelles Storytelling
+Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, Bewegung und Sound für das Erzählen einer Geschichte sind. Gleichzeitig wurde klar, dass visuelles Storytelling auch eine gewisse Vorwissensbasis beim Publikum voraussetzt.
+
 
 ## Ressourcen
 
