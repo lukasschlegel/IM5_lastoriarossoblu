@@ -1,19 +1,12 @@
 # La storia Rossoblù – Scrollytelling
 
-Eine Scrollytelling-Webseite, die die aussergewöhnliche Geschichte des FC Chiasso erzählt.
+Scrollytelling-Webprojekt mit Bildsequenz, Scrollsteuerung und Sounddesign.
 
-## Ausgangslage
+## Projektbeschreibung
 
-Das Projekt enthält eine animierte Intro-Szene:
-
-- Wolken erscheinen übereinander und fliegen beim Scrollen symmetrisch auseinander.
-- Titel und Ball werden eingeblendet und bleiben kurz stehen.
-- Hintergrundgrafik und Spielerbild blenden ein.
-- Der Ball fällt in mehreren Keyframe-Bewegungen langsam nach unten.
-- Beim Erreichen eines definierten Scroll-Zeitpunkts wird Spieler 1 durch Spieler 2 ersetzt.
-- Alle Animationen sind vollständig scrollgesteuert.
-
-Die Seite dient als Auftakt für ein längeres Scrollytelling über die Vereinsgeschichte.
+Dieses Projekt ist ein interaktives Scrollytelling über die Geschichte des FC Chiasso.
+Die Erzählung wird über eine animierte Bildsequenz realisiert, die durch Scrollen
+gesteuert wird und durch gezielte Soundatmosphären ergänzt wird.
 
 ## Learnings
 
