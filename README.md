@@ -51,4 +51,5 @@ Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutze
 - Browser DevTools für Debugging und Performance-Analyse
 - Visual Studio Code
 
-STAND: 25. November 2025
+Das finale Projekt ist online verfügbar unter:
+[La storia Rossoblù – Scrollytelling](https://lukasschlegel.ch/lastoriarossoblu/index.html)
