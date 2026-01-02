@@ -74,10 +74,8 @@ Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, B
 - [Ramon Playground](https://playground.gridonic.io/ramon-playground/version-1) – Inspirationsquelle
 - [Ruba Sprites Techniques](https://playground.gridonic.io/scroll-experience-techniques/sprites-ruba) – Inspirationsquelle
 - ChatGPT als Unterstützung beim Programmieren
-- After Effects als Quelle für die PNG-Sequenz
+- Adobe Creative Cloud (Photoshop, After Effects, Audition)
 - XnConvert für die Umwandlung von PNG zu WEBP
-- Adobe Audition für das Sounddesign
-- Photoshop zur Bearbeitung der Fotos
 - Procreate (Ipad)
 - Sony A7IV Kamera
 - Browser DevTools für Debugging und Performance-Analyse
