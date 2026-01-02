@@ -78,6 +78,7 @@ Der bewusste Verzicht auf erklärenden Text machte deutlich, wie wichtig Bild, B
 - XnConvert für die Umwandlung von PNG zu WEBP
 - Adobe Audition für das Sounddesign
 - Photoshop zur Bearbeitung der Fotos
+- Procreate (Ipad)
 - Sony A7IV Kamera
 - Browser DevTools für Debugging und Performance-Analyse
 - Visual Studio Code
