@@ -30,7 +30,7 @@ An einem weiteren Tag machte ich eine weitere Fotosession in Chiasso und hatte u
 ![Alternativtext](img/GrottoCarlino.jpg)
 *Abb.2: Grotto del Carlin mit der Gründungstafel des FC Chiasso*
 
-Nachdem ich alle Fotografien gesammelt hatte, bearbeitete ich diese einzeln in Photoshop, um sie stilistisch an die jeweilige Epoche anzupassen. Anschliessend entschied ich mich, die Bilder und Zeichnungen in After Effects zusammenzuführen und als PNG-Sequenz zu exportieren. Dieser Schritt brachte den grossen Vorteil mit sich, dass ich die Bewegung des Balls mithilfe von Keyframes in After Effects deutlich präziser animieren konnte (siehe Abb. 3).
+Nachdem ich alle Fotografien gesammelt hatte, bearbeitete ich diese einzeln in Photoshop, um sie stilistisch an die jeweilige Epoche anzupassen. Anschliessend entschied ich mich, die Bilder und Zeichnungen in After Effects zusammenzuführen und als PNG-Sequenz zu exportieren. Dieser Schritt brachte den grossen Vorteil mit sich, dass ich die Bewegung des Balls mithilfe von Keyframes in After Effects deutlich präziser animieren konnte als direkt auf der Webseite (siehe Abb. 3).
 
 ![Alternativtext](img/AfterEffects.png)
 *Abb.3: Animation in After Effects*
