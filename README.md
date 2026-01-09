@@ -33,7 +33,7 @@ An einem weiteren Tag machte ich eine weitere Fotosession in Chiasso und hatte u
 Nachdem ich alle Fotografien gesammelt hatte, bearbeitete ich diese einzeln in Photoshop, um sie stilistisch an die jeweilige Epoche anzupassen. Anschliessend entschied ich mich, die Bilder und Zeichnungen in After Effects zusammenzuführen und als PNG-Sequenz zu exportieren. Dieser Schritt brachte den grossen Vorteil mit sich, dass ich die Bewegung des Balls mithilfe von Keyframes in After Effects deutlich präziser animieren konnte als direkt auf der Webseite (siehe Abb. 3).
 
 ![Alternativtext](img/AfterEffects.png)
-*Abb.3: Animation in After Effects*
+*Abb.3: Projekt in After Effects*
 
 Für die Webseite setzte ich das responsive Verhalten so um, dass ich einen fixen Container mit einem Seitenverhältnis von 16:9 erstellte. In diesen Container integrierte ich die PNG-Sequenz und steuerte sie mithilfe von GSAP ScrollTrigger über das Scrollen der Seite.
 
