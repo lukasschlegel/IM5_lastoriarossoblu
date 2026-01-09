@@ -48,14 +48,14 @@ Beim Laden der Seite erscheint zudem eine kleine Loop-Animation, die die Benutze
 ## Schwierigkeiten
 
 - Die vielleicht grösste Herausforderung war es, die Seite performant zu gestalten. Die ursprüngliche PNG-Sequenz, die ich aus After Effects exportiert hatte, war viel zu gross (ca. 3 GB). Deshalb habe ich alle PNGs in WEBP-Dateien umgewandelt und konnte so über 90 Prozent der ursprünglichen Dateigrösse einsparen. Letztlich habe ich mich für einen Ladebildschirm entschieden, der alle WEBPs vollständig lädt, bevor die Seite angezeigt wird. Dadurch kann man danach ohne Lags durch die gesamte Animation scrollen.
-- Eine weitere Herausforderung war es, die Geschichte so zu erzählen, dass ich möglichst auf Text verzichten konnte, die Geschichte des FC Chiasso aber dennoch durch das visuelle und audiovisuelle Erlebnis verständlich wird. Hier muss ich sagen, dass es natürlich von Vorteil ist, wenn man den Club bereits kennt.
+- Eine weitere Herausforderung war es, die Geschichte so zu erzählen, dass ich möglichst auf Text verzichten konnte, die Geschichte des FC Chiasso aber dennoch durch das visuelle und audiovisuelle Erlebnis verständlich wird. Hier muss ich sagen, dass es natürlich von Vorteil ist, wenn man bereits etwas über den Club weiss.
 - Beim Animieren des Balls direkt auf der Webseite mit JavaScript habe ich mir regelrecht die Zähne ausgebissen. Ich habe viele Stunden daran gearbeitet, musste aber schliesslich einsehen, dass es mit meinem aktuellen Kenntnisstand sinnvoller ist, den Umweg über After Effects zu gehen und die Animation dort zu erstellen.
 - Auch die Seite responsive zu gestalten, erwies sich als schwierig. Die Lösung, einen fixen Container mit einem festen Seitenverhältnis zu verwenden, der beim Skalieren das 16:9-Format beibehält, hat dabei deutlich geholfen.
 
 
 ## Learnings
 - Performance ist entscheidend für das Nutzungserlebnis.
-Besonders bei bildintensiven, scrollbasierten Animationen ist eine gute Performance zentral. Die Umwandlung der PNG-Sequenz in WEBP-Dateien und der Einsatz eines Ladebildschirms waren notwendig, um ein flüssiges Scroll-Erlebnis ohne Ruckler zu ermöglichen.
+Besonders bei bildintensiven, scrollbasierten Animationen ist eine gute Performance zentral. Die Umwandlung der PNG-Sequenz in WEBP-Dateien und der Einsatz eines Ladebildschirms waren notwendig, um ein flüssiges Scroll-Erlebnis ohne Ruckler zu ermöglichen. Hier sehe ich aber noch Potential für eine weitere Arbeit, um die Seite so aufzubauen, dass die Ladezeit am Anfang minimiert werden kann.
 - Komplexe Animationen lassen sich nicht immer sinnvoll direkt im Browser umsetzen.
 Der Versuch, den Ball direkt mit JavaScript und GSAP zu animieren, erwies sich als zu aufwendig und zu ungenau. Die Entscheidung, die Animation in After Effects zu erstellen und als Bildsequenz zu exportieren, führte zu einem deutlich präziseren und zuverlässigeren Ergebnis.
 - Responsives Design bei Animationen erfordert klare Einschränkungen.
